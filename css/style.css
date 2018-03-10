@@ -1,0 +1,137 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 100%;
+    /* comment this code and add float property to control the view area */
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.movieData {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.movie {
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    display: block;
+    padding: 15px 15px 10px 15px;
+    border: 1px solid #a5a5a5;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.content .movieBanner img {
+    width: 100px;
+    height: 100px;
+    margin-left: calc(50% - 50px);
+}
+
+.content .movieName,
+.content .movieYear {
+    text-align: center;
+}
+
+.rating {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: -40px;
+    transition: all 0.7s ease 0s;
+}
+
+.rating span {
+    color: #cecdcd;
+}
+
+.movieInfo {
+    text-align: center;
+    width: calc(100% - 50px);
+    padding: 5px;
+    position: absolute;
+    bottom: -130px;
+    transition: all 0.5s ease 0s;
+    left: 25px;
+    box-sizing: border-box;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.searchContainer {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.searchContainer .searchMovie {
+    position: absolute;
+    left: 0px;
+    padding-left: 25px;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.searchContainer span {
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+
+.removePlayer {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.animateRating {
+    transition: all 0.7s ease 0s;
+    top: -8px;
+}
+
+.animateMovieInfo {
+    transition: all 0.5s ease 0s;
+    bottom: 0;
+    background-color: #efe5b8;
+}
+
+.plzwait {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    margin-top: 50px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation span {
+    padding: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
